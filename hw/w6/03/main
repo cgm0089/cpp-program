@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+    int g;
+    int cnt = 0;
+
+    while (cin >> g)
+    {
+        cnt++;
+
+    cout << g <<"|";
+    for(int i = 1; i <= g ; i = i + 1){
+        cout << "*";
+    }cout<<endl; 
+    }
+
+    cout << "\nData coutns : " << cnt << endl;
+
+    return 0;
+}

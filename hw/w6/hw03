@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n;
+    //int cnt
+    int i;
+    int j;
+    cout << "enter an integer (n)";
+    while (cin >> n)
+    {
+cout<<n<<"|";
+
+    for (i = 1; i <= n; i++)
+    {
+        
+        for (j = 1; j <= i; j++)
+        {
+           
+        }  cout << "*";
+    }cout << endl;}
+return 0;
+}
